@@ -1,0 +1,108 @@
+body{
+    font-family: "Archivo", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.navbar {
+    padding: 14px 60px;
+
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.navbar-logo img{
+    width: auto;
+    height: auto;
+}
+
+/*--------------------------------*/
+
+.c-carousel {
+    height: 480px;
+
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+
+
+
+
+/*-----------------------------------*/
+
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+footer {
+    background-color: #e9dc6e;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footerB {
+    background-color: #beb453;
+    
+}
+
+
+
+/* Ajuste del margen superior para evitar que la sección de filtrado se superponga con el navbar */
+.filter-section {
+    margin-top: 56px;
+    /* Altura del navbar */
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03); /* Agranda al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el cursor */
+}
+
+.videoFondo {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+#videoCampo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 10%;
+    min-height: 10%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.textoVideo{
+    width: 100%; /* Ajusta el ancho para que ocupe todo el contenedor */
+    position: relative;
+    z-index: 1;
+    color: white; /* Color del texto */
+    text-align: center;
+    padding: 8em 0;
+}
+

@@ -1,0 +1,30 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24 
+}
+
+.bold-option {
+  font-weight: bold;
+}
+
+body {
+  background-color: #f5eda5f5;
+  font-family: "Archivo", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.tablaComun {
+  border-radius: 50px;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;  /*SIn esto no se ven los bordes*/
+  border: 1px solid;
+}
+
